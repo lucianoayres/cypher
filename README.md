@@ -56,13 +56,9 @@ This approach integrates multiple summarization techniques for a comprehensive, 
 
 Follow these steps to use Cypher for code summarization and architecture insight:
 
-#### 1. Define Your Code Summary Task
+#### 1. Provide Your Source Code or Snippet
 
-Clearly specify the areas of your codebase or architecture requiring a summary. This helps Cypher provide targeted output.
-
-#### Example Task Definition:
-
-"I need an architectural summary of my backend service focusing on dependency relationships and modular design."
+Choose the specific source code or code snippet you want Cypher to summarize. Cypher will analyze the code to provide a concise overview tailored to your needs.
 
 #### 2. Clone the Cypher Repository
 
