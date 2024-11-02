@@ -54,24 +54,24 @@ This approach integrates multiple summarization techniques for a comprehensive, 
 
 ### 🛠️ How to Use
 
-Follow these steps to use Cypher for code summarization and architecture insight:
+Cypher smartly summarizes your code, providing a concise output for further use with any LLM of your choice.
 
-#### 1. Provide Your Source Code or Snippet
+#### 1. Select Your Source Code
 
-Choose the specific source code or code snippet you want Cypher to summarize. Cypher will analyze the code to provide a concise overview tailored to your needs.
+Choose the code or snippet you’d like summarized. Cypher will analyze it and generate an efficient overview.
 
 #### 2. Clone the Cypher Repository
+
+Clone the Cypher repository:
 
 ```bash
 git clone https://github.com/lucianoayres/cypher.git
 cd cypher
 ```
 
-#### 3. Prepare the Modelfile with Ollama
+#### 3. Set Up the Cypher Modelfile
 
-Make sure [Ollama](https://github.com/ollama/ollama) is installed.
-
-Create the Cypher model:
+Ensure [Ollama](https://github.com/ollama/ollama) is installed, then create the Cypher model:
 
 ```bash
 ollama create cypher -f ./modelfiles/Cypher1.0
@@ -79,29 +79,19 @@ ollama create cypher -f ./modelfiles/Cypher1.0
 
 #### 4. Run Cypher
 
-Execute Cypher as a summarizer based on your task:
+Execute Cypher to generate a summary of your code:
 
 ```bash
 ollama run cypher
 ```
 
-#### 5. Provide the Code Summary Task
+#### 5. Input Your Code
 
-Specify the components or architecture you want summarized when prompted by Cypher.
+Provide the source code when prompted. Cypher will process the code and output a smart summary, completing its task.
 
-**User Input Example**:
+#### 6. Save the Summary (Optional)
 
-```
-Provide a summary of the service architecture, focusing on dependencies among modules and key components.
-```
-
-#### 6. Save the Generated Summary
-
-Copy the output and save it to a file, such as `ProjectSummary.txt`. For automated workflows, consider using [Nino](https://github.com/lucianoayres/nino-cli) to save summaries locally.
-
-### 7. Analyze and Refine
-
-Use Cypher’s summary to guide architectural decisions, reorganization, or improvements in the code structure.
+To save the Cypher output automatically, use [Nino](https://github.com/lucianoayres/nino-cli). This allows you to save the summary locally for easy reference.
 
 ---
 
