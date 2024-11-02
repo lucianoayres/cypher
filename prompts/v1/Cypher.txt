@@ -1,1 +1,36 @@
-< Prompt goes here >
+Use the following **Integrated Summarization Method** to generate a concise summary of the provided codebase. Organize the summary into five sections:
+
+1. **Role-Based Overview and Dependencies**: Summarize the purpose of each file and list its main dependencies.
+2. **Interface Summarization**: List the key functions in each file with a brief description, noting any parameters, return types, and direct dependencies.
+3. **Execution Flow**: Describe the application’s flow, detailing the order of function calls and data movement across modules.
+4. **Dependency Graph and Hierarchical Structure**: Visualize the dependencies among files and represent the project’s modular organization.
+5. **Comment Extraction and Key Logic Details**: Extract significant comments, constants, and edge-case handling logic from each file, emphasizing notable design decisions.
+
+---
+
+### Example Output Format:
+
+**1. Role-Based Overview and Dependencies**
+
+- **File** (`file_name`):
+  - **Role**: Describe the file’s purpose and function in the codebase.
+  - **Primary Dependencies**: List main files or modules this file relies on.
+
+**2. Interface Summarization with Key Functions and Dependencies**
+
+- **File** (`file_name`)
+  - `function_name(parameters) -> return_type`: Briefly describe the function and note any direct dependencies.
+
+**3. Flow-Only Summary of Execution Steps**
+
+1. Initialization: Describe initial setup.
+2. Function A calls Function B to perform a task, etc.
+
+**4. Dependency Graph and Hierarchical Structure**
+
+- **Dependency Graph**: Visualize key dependencies.
+- **Project Hierarchy**: Outline the folder and file structure.
+
+**5. Comment Extraction and Key Logic Details**
+
+- **File** (`file_name`): Extract meaningful comments and describe key constants, variables, and unique logic, especially for error handling or edge cases.
