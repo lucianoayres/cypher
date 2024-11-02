@@ -38,15 +38,15 @@ Cypher is an AI-powered code summarizer tailored for efficient navigation of lar
 
 ---
 
-### Method
+### 🧩 Method
 
 Cypher uses a unique and original **Integrated Summarization Method** that combines multiple summarization techniques to provide a multi-layered, concise overview of complex codebases. This method organizes the summary by focusing on **Roles**, **Interfaces**, **Dependencies**, **Execution Flow**, and **Hierarchy**, creating a comprehensive yet token-efficient representation.
 
--   **Role-Based Overview and Dependencies**: Groups code into functional roles, summarizing each file’s purpose and listing primary dependencies.
--   **Interface Summarization**: Lists key functions, their parameters, return types, and dependencies to show how each function interfaces with others.
--   **Execution Flow Summary**: Provides a step-by-step breakdown of the application’s execution flow, illustrating module interactions.
--   **Dependency Graph and Hierarchical Structure**: Visualizes file dependencies and organizes the project hierarchy, showing modularity and connections.
--   **Comment Extraction and Key Logic Details**: Highlights important comments, constants, unique logic, and edge-case handling, capturing key design decisions.
+-   🦊 **Role-Based Overview and Dependencies**: Groups code into functional roles, summarizing each file’s purpose and listing primary dependencies.
+-   🔍 **Interface Summarization**: Lists key functions, their parameters, return types, and dependencies to show how each function interfaces with others.
+-   🔄 **Execution Flow Summary**: Provides a step-by-step breakdown of the application’s execution flow, illustrating module interactions.
+-   📊 **Dependency Graph and Hierarchical Structure**: Visualizes file dependencies and organizes the project hierarchy, showing modularity and connections.
+-   💡 **Comment Extraction and Key Logic Details**: Highlights important comments, constants, unique logic, and edge-case handling, capturing key design decisions.
 
 This approach integrates multiple summarization techniques for a comprehensive, structured overview of the codebase.
 
@@ -111,7 +111,7 @@ Use Cypher’s summary to guide architectural decisions, reorganization, or impr
 
 ### Templates 📄
 
-Cypher's primary focus is the [Cypher1.0 Modelfile](./modelfiles/Cypher1.0), but prompt examples for usage are available in the [prompts directory](./prompts). These templates offer guidance for crafting tailored summaries and help illustrate Cypher’s flexibility.
+Cypher's primary focus is the [Cypher Modelfile](./modelfiles/Cypher1.0), but prompt examples for usage are available in the [prompts directory](./prompts). These templates offer guidance for crafting tailored summaries and help illustrate Cypher’s flexibility.
 
 **Structure**:
 
