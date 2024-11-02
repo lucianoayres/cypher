@@ -1,4 +1,4 @@
-# Cypher 🦊💫
+# Cypher 🦊
 
 ![Cypher Banner](https://github.com/lucianoayres/cypher/blob/main/images/banner_cypher.png?raw=true)
 
