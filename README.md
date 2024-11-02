@@ -2,7 +2,7 @@
 
 ![Cypher Banner](https://github.com/lucianoayres/cypher/blob/main/images/banner_cypher.png?raw=true)
 
-## AI-Powered Code Summarizer and Prompt Optimizer for LLMs
+## Smart Code Summaries for Token-Efficient LLM Power
 
 [🦾 Overview](#overview) • [🧠 Why Use Cypher](#why-use-cypher) • [✨ Features](#features) • [🚀 How It Works](#how-it-works) • [🤝 Contribution](#contribution) • [📄 License](#license)
 
