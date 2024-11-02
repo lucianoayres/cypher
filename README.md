@@ -4,7 +4,7 @@
 
 ## Smart Code Summaries for Token-Efficient LLM Power
 
-[🦾 Overview](#overview) · [🧠 Why Use Cypher](#why-use-cypher) · [✨ Features](#features) · [🚀 How It Works](#how-it-works) · [🧩 Method](#method) · [🛠️ How to Use](#how-to-use) · [Template 📄](#template-) · [📄 License](#license) · [🤝 Contribution](#contribution)
+[🦾 Overview](#overview) · [🧠 Why Use Cypher](#why-use-cypher) · [✨ Features](#features) · [🚀 How It Works](#how-it-works) · [🧩 Method](#method) · [🛠️ How to Use](#how-to-use) · [📄 Template](#template-) · [📄 License](#license) · [🤝 Contribution](#contribution)
 
 ---
 
