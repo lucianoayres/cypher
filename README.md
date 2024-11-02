@@ -1,7 +1,3 @@
-Here's the README with the token-efficient emoji updated to fit the futuristic red fox theme:
-
----
-
 # Cypher 🦊💫
 
 ![Cypher Banner](https://github.com/lucianoayres/cypher/blob/main/images/banner_cypher.png?raw=true)
