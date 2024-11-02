@@ -4,7 +4,7 @@
 
 ## Smart Code Summaries for Token-Efficient LLM Power
 
-[🦾 Overview](#overview) · [🧠 Why Use Cypher](#why-use-cypher) · [✨ Features](#features) · [🚀 How It Works](#how-it-works) · [🧩 Method](#method) · [🛠️ How to Use](#how-to-use) · [Templates 📄](#templates-) · [📄 License](#license) · [🤝 Contribution](#contribution)
+[🦾 Overview](#overview) · [🧠 Why Use Cypher](#why-use-cypher) · [✨ Features](#features) · [🚀 How It Works](#how-it-works) · [🧩 Method](#method) · [🛠️ How to Use](#how-to-use) · [Template 📄](#template-) · [📄 License](#license) · [🤝 Contribution](#contribution)
 
 ---
 
@@ -95,7 +95,7 @@ To save the Cypher output automatically, use [Nino](https://github.com/lucianoay
 
 ---
 
-### Templates 📄
+### Template 📄
 
 Cypher's primary focus is the [Cypher Modelfile](./modelfiles/Cypher1.0), but prompt examples for usage are available in the [prompts directory](./prompts). These templates offer guidance for crafting tailored summaries and help illustrate Cypher’s flexibility.
 
@@ -120,4 +120,4 @@ Cypher is licensed under the MIT License. See the [LICENSE](LICENSE) file for mo
 
 ### 🤝 Contribution
 
-Your input is welcome! Feel free to open an issue or submit a pull request with suggestions, improvements, or new features. Together, we can enhance Cypher for even smarter code summaries and architectural insight.
+Your input is welcome! Feel free to open an issue or submit a pull request with suggestions, improvements, or new features.
