@@ -106,9 +106,9 @@ Cypher's primary focus is the [Cypher Modelfile](./modelfiles/Cypher1.0), but pr
     - **META**: Adds metadata and model info.
     - **FROM**: Specifies the base model (e.g., `llama3.2`).
     - **PARAMETER**: Sets key parameters for summary generation.
+    - **SYSTEM**: Sets the model system prompt.
     - **MESSAGE**: Provides initial prompts for effective summarization.
     - **LICENSE**: Includes licensing details.
-3. **Template** 🧩: The Modelfile template includes placeholders (`<< >>`) for customizing summaries.
 
 ---
 
