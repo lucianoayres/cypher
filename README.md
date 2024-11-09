@@ -127,14 +127,17 @@ nino -model cypher -prompt-file ./examples/tic-tac-toe.js
 nino -model cypher -prompt-file ./examples/TaskTrackerApp.cs
 ```
 
-#### 🚀 Recommendations for Better Results
+### 🚀 Recommendations for Better Results
 
 To achieve more accurate summaries, follow these guidelines:
 
--   **📝 Use Specific Code Snippets:** Instead of submitting entire files or projects, provide focused code snippets that highlight the areas you want to summarize.
--   **📂 Handle Large Files Appropriately:** If a source file is too large, extract the relevant parts and save them in a separate text file. Use this smaller file as the input prompt for the model.
--   **🧩 Break Down Extensive Codebases:** Divide large codebases into smaller, manageable sections. Process each section in separate interactions with Cypher to ensure detailed and precise analysis without overwhelming the system.
--   **💡 HINT:** Consider using the [tree-sitter](https://tree-sitter.github.io/tree-sitter/) library to help extract code snippets automatically. This tool can streamline the process of isolating relevant code sections, making it easier to prepare effective prompts for Cypher.
+📝 **Use Specific Code Snippets**: Instead of submitting entire files or projects, provide focused code snippets that highlight the areas you want to summarize.
+
+📂 **Handle Large Files Appropriately**: If a source file is too large, extract the relevant parts and save them in a separate text file. Use this smaller file as the input prompt for the model.
+
+🧩 **Break Down Extensive Codebases**: Divide large codebases into smaller, manageable sections. Process each section in separate interactions with Cypher to ensure detailed and precise analysis without overwhelming the system.
+
+💡 **HINT**: Use [**Taco 🌮**](https://github.com/lucianoayres/taco) to selectively choose source code project files and merge them into a single text file. This makes it easy to create prompts for Cypher with specific files from your project, enhancing the efficiency of your summarization process.
 
 ### Template 📄
 
