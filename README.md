@@ -4,7 +4,7 @@
 
 ## Smart Code Summaries for Token-Efficient LLM Power
 
-[🦾 Overview](#overview) · [🧠 Why Use Cypher](#why-use-cypher) · [✨ Features](#features) · [🚀 How It Works](#how-it-works) · [🧩 Method](#method) · [🛠️ How to Use](#how-to-use) · [📄 Template](#template-) · [📄 License](#license) · [🤝 Contribution](#contribution)
+[🦾 Overview](#overview) · [🧠 Why Use Cypher](#why-use-cypher) · [✨ Features](#features) · [🚀 How It Works](#how-it-works) · [🧩 Method](#method) · [🛠️ How to Use](#how-to-use) · [📚 Examples](#examples) · [📄 Template](#template-) · [📄 License](#license) · [🤝 Contribution](#contribution)
 
 ---
 
@@ -94,6 +94,28 @@ Provide the source code when prompted. Cypher will process the code and output a
 To save the Cypher output automatically, use [Nino](https://github.com/lucianoayres/nino-cli). This allows you to save the summary locally for easy reference.
 
 ---
+
+### 📚 Examples
+
+Find various sample source code files in different programming languages [in the examples](./examples). These samples help you easily evaluate how Cypher handles different languages and coding styles.
+
+#### Using Examples with Nino CLI
+
+Users can utilize these example files as prompts for Cypher to generate summaries. Below are sample commands using the Nino CLI:
+
+```bash
+nino -model cypher -prompt-file ./examples/Main.java
+```
+
+```bash
+nino -model cypher -prompt-file ./examples/factorial.py
+```
+
+> **Note:** Ensure you specify the correct file extension corresponding to the language of the source code.
+
+#### Recommendations for Better Results
+
+## For accurate summaries, use specific code snippets instead of entire files or projects. If a source file is too large, save the relevant snippet in a separate text file and use it as the model’s prompt. Additionally, break extensive codebases into smaller sections and process them in multiple interactions with Cypher to ensure precise analysis and avoid overwhelming the system.
 
 ### Template 📄
 
