@@ -103,17 +103,25 @@ Find various sample source code files in different programming languages [in the
 
 Users can utilize these example files as prompts for Cypher to generate summaries. Below are sample commands using the [Nino CLI](https://github.com/lucianoayres/nino-cli):
 
+##### Python Example:
+
 ```bash
 nino -model cypher -prompt-file ./examples/text_to_morse.py
 ```
+
+##### Java Example:
 
 ```bash
 nino -model cypher -prompt-file ./examples/Payment.java
 ```
 
+##### JavaScript Example:
+
 ```bash
 nino -model cypher -prompt-file ./examples/tic-tac-toe.js
 ```
+
+##### C# Example:
 
 ```bash
 nino -model cypher -prompt-file ./examples/TaskTrackerApp.cs
