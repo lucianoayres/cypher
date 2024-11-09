@@ -57,7 +57,7 @@ You should only output the content for the topics of the informed method, nothin
 **3. Flow-Only Summary of Execution Steps**
 
 1. Initialization: Describe initial setup.
-2. Function A calls Function B to perform a task, etc.
+2. Summary: Outline the main steps and logical progression of the program, emphasizing the flow of operations from start to finish without detailed explanations or specific terminology.
 
 **4. Dependency Graph and Hierarchical Structure**
 

@@ -104,18 +104,29 @@ Find various sample source code files in different programming languages [in the
 Users can utilize these example files as prompts for Cypher to generate summaries. Below are sample commands using the [Nino CLI](https://github.com/lucianoayres/nino-cli):
 
 ```bash
-nino -model cypher -prompt-file ./examples/Main.java
+nino -model cypher -prompt-file ./examples/text_to_morse.py
 ```
 
 ```bash
-nino -model cypher -prompt-file ./examples/factorial.py
+nino -model cypher -prompt-file ./examples/Payment.java
 ```
 
-> **Note:** Ensure you specify the correct file extension corresponding to the language of the source code.
+```bash
+nino -model cypher -prompt-file ./examples/tic-tac-toe.js
+```
 
-#### Recommendations for Better Results
+```bash
+nino -model cypher -prompt-file ./examples/TaskTrackerApp.cs
+```
 
-## For accurate summaries, use specific code snippets instead of entire files or projects. If a source file is too large, save the relevant snippet in a separate text file and use it as the model’s prompt. Additionally, break extensive codebases into smaller sections and process them in multiple interactions with Cypher to ensure precise analysis and avoid overwhelming the system.
+#### 🚀 Recommendations for Better Results
+
+To achieve more accurate summaries, follow these guidelines:
+
+-   **📝 Use Specific Code Snippets:** Instead of submitting entire files or projects, provide focused code snippets that highlight the areas you want to summarize.
+-   **📂 Handle Large Files Appropriately:** If a source file is too large, extract the relevant parts and save them in a separate text file. Use this smaller file as the input prompt for the model.
+-   **🧩 Break Down Extensive Codebases:** Divide large codebases into smaller, manageable sections. Process each section in separate interactions with Cypher to ensure detailed and precise analysis without overwhelming the system.
+-   **💡 HINT:** Consider using the [tree-sitter](https://tree-sitter.github.io/tree-sitter/) library to help extract code snippets automatically. This tool can streamline the process of isolating relevant code sections, making it easier to prepare effective prompts for Cypher.
 
 ### Template 📄
 
