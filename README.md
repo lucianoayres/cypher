@@ -137,7 +137,7 @@ To achieve more accurate summaries, follow these guidelines:
 
 🧩 **Break Down Extensive Codebases**: Divide large codebases into smaller, manageable sections. Process each section in separate interactions with Cypher to ensure detailed and precise analysis without overwhelming the system.
 
-💡 **HINT**: Use [**Taco 🌮**](https://github.com/lucianoayres/taco) to selectively choose source code project files and merge them into a single text file. This makes it easy to create prompts for Cypher with specific files from your project, enhancing the efficiency of your summarization process.
+💡 **HINT**: Use [**Taco**](https://github.com/lucianoayres/taco) 🌮 to selectively choose source code project files and merge them into a single text file. This makes it easy to create prompts for Cypher with specific files from your project, enhancing the efficiency of your summarization process.
 
 ### Template 📄
 
@@ -158,7 +158,7 @@ Cypher's primary focus is the [Cypher Modelfile](./modelfiles/Cypher1.0), but pr
 
 ### 🦖 Create Custom AI Models with Modelzilla
 
-Looking to build your own AI models? Use [**Modelzilla 🦖**](https://github.com/lucianoayres/modelzilla) to effortlessly generate customized Modelfiles.
+Looking to build your own AI models? Use [**Modelzilla**](https://github.com/lucianoayres/modelzilla) 🦖 to effortlessly generate customized Modelfiles.
 
 ---
 
