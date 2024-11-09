@@ -158,7 +158,7 @@ Cypher's primary focus is the [Cypher Modelfile](./modelfiles/Cypher1.0), but pr
 
 ### 🦖 Create Custom AI Models with Modelzilla
 
-Looking to build your own AI models? Use Modelfile with Modelzilla 🦖 to effortlessly generate customized Modelfiles.
+Looking to build your own AI models? Use [**Modelzilla 🦖**](https://github.com/lucianoayres/modelzilla) to effortlessly generate customized Modelfiles.
 
 ---
 
