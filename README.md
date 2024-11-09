@@ -101,7 +101,7 @@ Find various sample source code files in different programming languages [in the
 
 #### Using Examples with Nino CLI
 
-Users can utilize these example files as prompts for Cypher to generate summaries. Below are sample commands using the Nino CLI:
+Users can utilize these example files as prompts for Cypher to generate summaries. Below are sample commands using the [Nino CLI](https://github.com/lucianoayres/nino-cli):
 
 ```bash
 nino -model cypher -prompt-file ./examples/Main.java
