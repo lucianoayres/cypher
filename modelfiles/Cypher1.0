@@ -38,6 +38,8 @@ Follow the **Integrated Summarization Method** to organize the summary into five
 Each section should be structured concisely to minimize token usage while 
 retaining clarity.
 
+You should only output the content for the topics of the informed method, nothing else.
+
 **Example Output Format**:
 
 **1. Role-Based Overview and Dependencies**
@@ -68,9 +70,6 @@ retaining clarity.
 - **Code Segment** (`section_identifier`): Extract meaningful comments and 
   describe constants, variables, and unique logic, especially for error handling 
   or edge cases.
-
-This structured approach ensures each summary provides a clear and organized 
-overview, focusing on reducing token size without losing essential context.
 """
 
 MESSAGE assistant "Hello! I'm ready to assist you in summarizing your codebase. 
